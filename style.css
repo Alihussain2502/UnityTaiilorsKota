@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: #faf3e0;
+}
+
+
+.navbar {
+   height: 12vh;
+   width: 100vw;
+   background-color: rgba(77,36,6,255);
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 20px;
+   position: fixed;
+   z-index: 1000;
+}
+
+.texts:hover{
+    margin: 10px;
+    color:rgb(8, 69, 123);
+    display:flex;
+  
+}
+
+.texts a {
+    text-decoration: none;
+    color: inherit; 
+    display: inline-block; 
+}
+
+.texts a i {
+    font-size: 1.5rem;
+    color: #1877F2; 
+}
+
+
+.fakeheader{
+    height: 12vh;
+    width: 100vw;
+    background-color: pink;
+    color: rgb(112, 20, 20);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background: transparent;
+    visibility: hidden;
+ }
+ 
+
+.page1{
+    height: 88vh;
+    width: 100vw;
+    background-color: rgb(150, 125, 79);
+}
+
+#strip{
+    height: 4vh;
+    width: 100vw;
+    background-color: #4B0082;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 0 10px;
+
+}
+
+#heading{
+     width:100vw;
+     height: 16vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: wheat;
+     color:#2c2c54;
+     text-align: center;
+     font-size: 2rem;
+     margin: 0;
+}
+
+#heading h1{
+    font-weight: 600;
+    font-size: 3rem;
+    margin:0;
+}
+
+#content{
+    width: 100vw;
+    height: 72vh;
+    background-color: #faf3e0;
+    align-items: center;
+    justify-content: space-around;
+    display:flex;
+    padding: 20px;
+    gap: 20px;
+}
+ 
+#box1{
+    height: 70vh;
+    width: 45vw;
+    background-color:white;
+    background-image: url("download.jpg");
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 01);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #ffd700;
+}
+
+#box2{
+    height: 70vh;
+    width: 45vw;
+    background-color:white;
+    margin:10px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 01);
+    border: 2px solid #ffd700;
+
+}
+
+#box2 p{
+    font-size: 1rem;
+    line-height: 2.1;
+   
+}
+
+.page2{
+    height: 88vh;
+    width: 100vw;
+    background-color: #f0f0f0;
+}
+
+.nav-logo{
+    height: 100px;
+    width: 100px;
+    
+
+}
+
+.logo{
+    background-image: url("unity_final_logo.PNG");
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+.nav-address{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    flex-direction:column;
+    gap: 10px;
+}
+.nav-address i{
+    font-size: 1.5rem;
+    color: rgb(187, 255, 0);
+    display: flex;
+}
+
+.add-first{
+    color:aquamarine;
+    font-size: 1rem;
+    margin: 5px;
+    font-weight: 20;
+}
+
+.add-sec{
+    font-size: 1rem;
+    color: white;
+
+
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-size: contain;
+    height: 88vh;
+    background-color: gray;
+    padding: 20px;
+}
+.pbox1{
+    height: auto;
+    width: 20vw;
+    background-color:pink;
+    background-image: url("download.jpg");
+    margin: 13px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 01);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    box-shadow: 0px 4px 6 px rgba(0, 0, 0, 0.1);
+    justify-content:center;
+    flex-direction: column;
+    border: 2px solid #ffd700;
+}
+
+.footer {
+    background-color: black;
+    height: 18vh;
+    width: 100vw;
+
+}
+
+.pbox1 {
+    background-image: url("Kurta payzama with long coat.jpeg");
+    height: 50vh;
+    width: 20vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 2px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin: 13px; 
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    border: 2px solid #ffd700;
+}
+
+.pbox2 {
+    background-image: url("0bbfa8c4abea3a28202840b99d4d0f0e (1).jpg");
+    height: 50vh;
+    width: 20vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 2px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 13px; 
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    border: 2px solid #ffd700;
+}
+
+.pbox3 {
+    background-image: url("3a6b12460aab295472f447b2cb3dfdb3 (1).jpg");
+    height: 50vh;
+    width: 20vw;
+    background-size: ccover;
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 2px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 13px; 
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    border: 2px solid #ffd700;
+}
+
+.pbox4 {
+    background-image: url("0134526_marvelous-black-colored-designer-jodhpuri_900.jpg");
+    height: 50vh;
+    width: 20vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 2px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 13px;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    border: 2px solid #ffd700;
+}
+
+
+.pbox-text{
+    font-size: 1rem;
+    color: gray;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    background-color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.texts2{
+    display:flex;
+    font-size: 1.3rem;
+    font-weight: 130;
+    color: rgb(160, 55, 99);
+    text-align: center;
+    padding: 10px;
+    
+    background-color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+
+}
